@@ -23,10 +23,10 @@
 define('DB_NAME', 'divup');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'divup');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'frostbite2');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');

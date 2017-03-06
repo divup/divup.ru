@@ -3,6 +3,8 @@
 <head>
 <?php wp_head(); ?>
 <link href="<?php bloginfo("template_directory");?>/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="<?php bloginfo("template_directory");?>/design/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php bloginfo("template_directory");?>/design/favicon.png" type="image/x-icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="<?php bloginfo("template_directory");?>/js/jquery.min.js"></script>
 <script src="<?php bloginfo("template_directory");?>/js/common.js"></script>
@@ -113,8 +115,8 @@
  <div class="page-align">
   <div class="top-line">
   	<div class="site-name" onClick="location.href = 'http://www.deadliner.org'">
-    <img src="<?php bloginfo("template_directory");?>/design/logotype.png">
-  	 divup.ru
+     <img src="<?php bloginfo("template_directory");?>/design/logotype.png">
+  	 <span>&ltdiv/</span>up.ru
   	 <div class="site-description">Разработка адаптивных сайтов под ключ</div>
   	</div>
     <span class="menu-burger" onClick="menu_show();">≡</span>

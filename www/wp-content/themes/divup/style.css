@@ -60,14 +60,15 @@ hr
 {
 	padding-top: 5px;
 	clear: both;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: Airbone;
 	color: #F1F1F1;
+	font-weight: 400;
 }
 .menu-block
 {
 	float: left;
-	padding-top: 22px;
+	padding-top: 30px;
 }
 .menu-block ul 
 {
@@ -247,9 +248,9 @@ hr
 .our-services:hover 
 {
 	cursor: pointer;
-	background: #0f1725;
-	transition: all 1s ease;
-	color: white;
+	background: #f1f1f1;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: all 0.5s ease;
 }
 .about-us 
 {
@@ -272,11 +273,20 @@ hr
 {
 	font-color:white;
 }
-.alg-block
+.fw-iconbox 
 {
-	padding:0px 2%;
 	font-family: Open Sans,sans-serif;
+	padding: 0px 2% !important;
 	color: white;
+}
+.fw-iconbox h3 
+{
+	font-weight: 400 !important;
+	font-size: 24px !important;
+}
+.fw-iconbox-image i 
+{
+	color: #65c1cf !important;
 }
 .contact-form
 {
@@ -625,6 +635,10 @@ h1
 {
 	height: 325px;
 }
+.fw-iconbox h3 
+{
+	font-size: 20px !important;
+}
 }
 @media screen and (max-width: 1368px){
 h1 
@@ -667,6 +681,10 @@ h1
 {
 	font-size: 72px;
 }
+.fw-iconbox h3 
+{
+	font-size: 18px !important;
+}
 }
 @media screen and (max-width: 1024px){
 h1 
@@ -696,6 +714,10 @@ h1
 .recall-button
 {
 	display: none;
+}
+.fw-iconbox h3 
+{
+	font-size: 16px !important;
 }
 }
 @media screen and (max-width: 768px){
@@ -758,6 +780,10 @@ h1
     width: 30%;
     display: inline-block;
     vertical-align: top;
+}
+.fw-iconbox h3 
+{
+	font-size: 14px !important;
 }
 }
 @media screen and (max-width: 420px){

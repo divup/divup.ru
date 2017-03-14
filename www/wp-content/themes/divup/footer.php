@@ -2,7 +2,6 @@
    <div class="connect">
     Контактые данные<br>
     <i class="fa fa-skype" aria-hidden="true"></i> Skype: divup.sup@gmail.com<br>
-    <i class="fa fa-vine" aria-hidden="true"></i> Vyber: +375 33 302-59-32<br>
    </div>
    <div class="connect">
     Почтовый ящик организации<br>
